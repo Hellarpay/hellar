@@ -1,77 +1,73 @@
-Hellar Core staging tree 0.12.1
-===============================
+Hellar Core 0.12.1
+=====================
 
-`master:` [![Build Status](https://travis-ci.org/hellarpay/hellar.svg?branch=master)](https://travis-ci.org/hellarpay/hellar) `v0.12.0.x:` [![Build Status](https://travis-ci.org/hellarpay/hellar.svg?branch=v0.12.0.x)](https://travis-ci.org/hellarpay/hellar/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/hellarpay/hellar.svg?branch=v0.12.1.x)](https://travis-ci.org/hellarpay/hellar/branches)
+This is the official reference wallet for Hellar digital currency and comprises the backbone of the Hellar peer-to-peer network. You can [download Hellar Core](https://www.hellar.io/downloads/) or [build it yourself](#building) using the guides below.
 
-https://www.hellar.io
+Running
+---------------------
+The following are some helpful notes on how to run Hellar on your native platform.
 
+### Unix
 
-What is Hellar?
-----------------
+Unpack the files into a directory and run:
 
-Hellar is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Hellar uses peer-to-peer technology
-to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Hellar Core is the name of the open
-source software which enables the use of this currency.
+- `bin/bitcoin-qt` (GUI) or
+- `bin/bitcoind` (headless)
 
-For more information, as well as an immediately useable, binary version of
-the Hellar Core software, see https://www.hellar.io/get-hellar/.
+### Windows
 
+Unpack the files into a directory, and then run hellar-qt.exe.
+
+### OS X
+
+Drag Hellar-Qt to your applications folder, and then run Hellar-Qt.
+
+### Need Help?
+
+* See the [Hellar documentation](https://hellarpay.atlassian.net/wiki/display/DOC)
+for help and more information.
+* Ask for help on [#hellarpay](http://webchat.freenode.net?channels=hellarpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=hellarpay).
+* Ask for help on the [HellarTalk](https://hellartalk.org/) forums.
+
+Building
+---------------------
+The following are developer notes on how to build Hellar Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+
+- [OS X Build Notes](build-osx.md)
+- [Unix Build Notes](build-unix.md)
+- [Windows Build Notes](build-windows.md)
+- [OpenBSD Build Notes](build-openbsd.md)
+- [Gitian Building Guide](gitian-building.md)
+
+Development
+---------------------
+The Hellar Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+
+- [Developer Notes](developer-notes.md)
+- [Multiwallet Qt Development](multiwallet-qt.md)
+- [Release Notes](release-notes.md)
+- [Release Process](release-process.md)
+- Source Code Documentation ***TODO***
+- [Translation Process](translation_process.md)
+- [Translation Strings Policy](translation_strings_policy.md)
+- [Unit Tests](unit-tests.md)
+- [Unauthenticated REST Interface](REST-interface.md)
+- [Shared Libraries](shared-libraries.md)
+- [BIPS](bips.md)
+- [Dnsseed Policy](dnsseed-policy.md)
+
+### Resources
+* Discuss on the [HellarTalk](https://hellartalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#hellarpay](http://webchat.freenode.net/?channels=hellarpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=hellarpay).
+
+### Miscellaneous
+- [Assets Attribution](assets-attribution.md)
+- [Files](files.md)
+- [Tor Support](tor.md)
+- [Init Scripts (systemd/upstart/openrc)](init.md)
 
 License
--------
-
-Hellar Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
-
-Development Process
--------------------
-
-The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/hellarpay/hellar/tags) are created to indicate new official,
-stable release versions of Hellar Core.
-
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write [unit tests](/doc/unit-tests.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`
-
-There are also [regression and integration tests](/qa) of the RPC interface, written
-in Python, that are run automatically on the build server.
-These tests can be run (if the [test dependencies](/qa) are installed) with: `qa/pull-tester/rpc-tests.py`
-
-The Travis CI system makes sure that every pull request is built for Windows
-and Linux, OS X, and that unit and sanity tests are automatically run.
-
-### Manual Quality Assurance (QA) Testing
-
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[Hellar Core's Transifex page](https://www.transifex.com/projects/p/hellar/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.hellar.io/forum/topic/hellar-worldwide-collaboration.88/).
+---------------------
+Distributed under the [MIT software license](http://www.opensource.org/licenses/mit-license.php).
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
+cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
