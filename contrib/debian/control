@@ -1,8 +1,8 @@
 Source: hellar
 Section: utils
 Priority: optional
-Maintainer: VpsRa.Net <vpsra@hellar.io>
-Uploaders: VpsRa.Net <vpsra@hellar.io>
+Maintainer: Holger Schinzel <holger@hellar.org>
+Uploaders: Holger Schinzel <holger@hellar.org>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -24,7 +24,7 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.hellar.io/
+Homepage: https://www.hellar.org/
 Vcs-Git: git://github.com/hellarpay/hellar.git
 Vcs-Browser: https://github.com/hellarpay/hellar
 
