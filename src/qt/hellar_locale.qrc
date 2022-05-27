@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/hellar_bg.qm</file>
+        <file alias="de">locale/hellar_de.qm</file>
+        <file alias="en">locale/hellar_en.qm</file>
+        <file alias="es">locale/hellar_es.qm</file>
+        <file alias="fi">locale/hellar_fi.qm</file>
+        <file alias="fr">locale/hellar_fr.qm</file>
+        <file alias="it">locale/hellar_it.qm</file>
+        <file alias="ja">locale/hellar_ja.qm</file>
+        <file alias="pl">locale/hellar_pl.qm</file>
+        <file alias="pt">locale/hellar_pt.qm</file>
+        <file alias="ru">locale/hellar_ru.qm</file>
+        <file alias="sk">locale/hellar_sk.qm</file>
+        <file alias="sv">locale/hellar_sv.qm</file>
+        <file alias="vi">locale/hellar_vi.qm</file>
+        <file alias="zh_CN">locale/hellar_zh_CN.qm</file>
+        <file alias="zh_TW">locale/hellar_zh_TW.qm</file>
+    </qresource>
+</RCC>
