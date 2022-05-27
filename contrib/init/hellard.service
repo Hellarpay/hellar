@@ -1,0 +1,22 @@
+[Unit]
+Description=Hellar's distributed currency daemon
+After=network.target
+
+[Service]
+User=hellarcore
+Group=hellarcore
+
+Type=forking
+PIDFile=/var/lib/hellard/hellard.pid
+ExecStart=/usr/bin/hellard -daemon -pid=/var/lib/hellard/hellard.pid \
+-conf=/etc/hellarcore/hellar.conf -datadir=/var/lib/hellard -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
