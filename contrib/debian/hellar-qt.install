@@ -1,0 +1,6 @@
+usr/local/bin/hellar-qt usr/bin
+share/pixmaps/hellar32.xpm usr/share/pixmaps
+share/pixmaps/hellar16.xpm usr/share/pixmaps
+share/pixmaps/hellar128.png usr/share/pixmaps
+debian/hellar-qt.desktop usr/share/applications
+debian/hellar-qt.protocol usr/share/kde4/services/
