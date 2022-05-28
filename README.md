@@ -1,8 +1,7 @@
 Hellar Core staging tree 0.12.1
 ===============================
 
-`master:` [![Build Status](https://github.com/Hellarpay/hellar?branch=master)](https://travis-ci.org/hellarpay/hellar) `v0.12.0.x:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=v0.12.0.x)](https://travis-ci.org/dashpay/dash/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/dashpay/dash.svg?branch=v0.12.1.x)](https://travis-ci.org/dashpay/dash/branches)
-
+`master:` [![Build Status](https://github.com/Hellarpay/hellar?branch=master)](https://travis-ci.org/hellarpay/hellar) `v0.12.0.x:`
 https://www.hellar.io
 
 
