@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.hellar.HellarPayment</string>
+      <string>io.hellar.HellarPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>hellar</string>

@@ -23,7 +23,7 @@ Darkcoin Core:
 - Adapted BIP44 coin type `5` for Darkcoin (0x80000005) as defined in SLIP-0044
 - Added new units: `duffs` (1 / 100.000.000 DRK)
 - Added units for testnet: tDRK, mtDRK, utDRK, tduffs
-- Added new DNS seed from masternode.io
+- Added new DNS seed from masternode.hellar.io
 - Fixed wallet locking after sending coins
 - Add `-regtest` mode, similar to testnet but private with instant block
   generation with `setgenerate` RPC.
