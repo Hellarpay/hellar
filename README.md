@@ -1,13 +1,12 @@
 <h1 align="center">
-Dogecoin Core [DOGE, Ð]  
+Hellar Core
+===========  
 <br/><br/>
 <img src="https://github.com/Hellarpay/hellar/blob/main/share/pixmaps/hellar256.png" alt="Hellar" width="300"/>
 </h1>
 
 <div align="center">
 
-Hellar Core staging tree 0.12.1
-===============================
 
 `master:` [![Build Status](https://github.com/Hellarpay/hellar?branch=master) `v0.12.0.x:`
 
