@@ -12,9 +12,10 @@ Hellar Core
 
 <div align="center">
 
-`master:` [![Build Status](https://github.com/Hellarpay/hellar?branch=master) `v0.12.0.x:`
+[![DogecoinBadge](https://img.shields.io/badge/Doge-Coin-yellow.svg)](https://hellar.io)
+[![MuchWow](https://img.shields.io/badge/Much-Wow-yellow.svg)](https://hellar.io)
 
-https://www.hellar.io
+</div>
 
 
 What is Hellar?
