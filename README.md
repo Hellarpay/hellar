@@ -1,3 +1,11 @@
+<h1 align="center">
+Dogecoin Core [DOGE, Ð]  
+<br/><br/>
+<img src="https://github.com/Hellarpay/hellar/blob/main/share/pixmaps/hellar256.png" alt="Hellar" width="300"/>
+</h1>
+
+<div align="center">
+
 Hellar Core staging tree 0.12.1
 ===============================
 
