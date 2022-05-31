@@ -1,5 +1,5 @@
 ---
-name: "hellar-linux-0.12"
+name: "hellar-linux-0.1"
 enable_cache: true
 suites:
 - "trusty"
@@ -18,7 +18,7 @@ packages:
 - "binutils-gold"
 - "ca-certificates"
 - "python"
-reference_datetime: "2017-01-01 00:00:00"
+reference_datetime: "2022-05-31 00:00:00"
 remotes:
 - "url": "https://github.com/hellarpay/hellar.git"
   "dir": "hellar"
