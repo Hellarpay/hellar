@@ -12,7 +12,7 @@ Hellar Core
 
 <div align="center">
 
-[![HellarcoinBadge](https://img.shields.io/badge/Doge-Coin-yellow.svg)](https://hellar.io)
+[![HellarcoinBadge](https://github.com/Hellarpay/hellar/blob/main/doc/Hellar-Coin-Pink.svg)](https://hellar.io)
 [![MuchWow](https://img.shields.io/badge/Much-Wow-yellow.svg)](https://hellar.io)
 
 </div>
