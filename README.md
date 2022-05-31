@@ -4,7 +4,6 @@
 </h1>
 
 <div align="center">
-
 <h1 align="center">
 
 Hellar Core
@@ -15,8 +14,8 @@ Hellar Core
 [![HellarcoinBadge](https://github.com/Hellarpay/hellar/blob/main/doc/Hellar-Coin-Pink.svg)](https://hellar.io)
 [![MuchWow](https://github.com/Hellarpay/hellar/blob/main/doc/MuchWoW.svg)](https://hellar.io)
 
-</div>
 
+</div>
 
 What is Hellar?
 ----------------
