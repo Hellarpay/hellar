@@ -6,8 +6,11 @@
 <div align="center">
 
 <h1 align="center">
+
 Hellar Core
 ===========
+
+<div align="center">
 
 `master:` [![Build Status](https://github.com/Hellarpay/hellar?branch=master) `v0.12.0.x:`
 
