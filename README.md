@@ -15,7 +15,7 @@ Hellar Core
 [![MuchWow](https://github.com/Hellarpay/hellar/blob/main/doc/MuchWoW.svg)](https://hellar.io)
 
 
-</div>
+<div align="left">
 
 What is Hellar?
 ----------------
