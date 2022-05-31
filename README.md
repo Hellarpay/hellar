@@ -1,8 +1,9 @@
 <h1 align="center">
 Hellar Core
+
 ===========  
 <br/><br/>
-<img src="https://github.com/Hellarpay/hellar/blob/main/share/pixmaps/hellar256.png" alt="Hellar" width="300"/>
+<img src="https://github.com/Hellarpay/hellar/blob/main/doc/Hellar.png" alt="Hellar" width="300"/>
 </h1>
 
 <div align="center">
