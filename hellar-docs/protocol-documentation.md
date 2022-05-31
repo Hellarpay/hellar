@@ -1,4 +1,4 @@
-Protocol Documentation - 0.12.1
+Protocol Documentation - 0.1.0
 =====================================
 
 This document describes the protocol extensions for all additional functionality build into the Hellar protocol. This doesn't include any of the Bitcoin procotol, which has been left in tact in the Hellar project. For more information about the core protocol, please see https://en.bitcoin.it/w/index.php?title#Protocol_documentation&action#edit
