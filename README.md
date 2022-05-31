@@ -3,10 +3,11 @@
 <img src="https://github.com/Hellarpay/hellar/blob/main/doc/hellarlogo.png" alt="Hellar" width="300"/>
 </h1>
 
-Hellar Core
-===========
 <div align="center">
 
+<h1 align="center">
+Hellar Core
+===========
 
 `master:` [![Build Status](https://github.com/Hellarpay/hellar?branch=master) `v0.12.0.x:`
 
