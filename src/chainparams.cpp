@@ -51,7 +51,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "start test hellar fork 31/05/2022 00/00";
+    const char* pszTimestamp = "Hellar World Wide Cryptocurrency x11 11/06/2022 00/00";
     const CScript genesisOutputScript = CScript() << ParseHex("04c1100d64bc8b26d6a88e33c84094c832e4c42fc0589fab770520182a5d4a46d04bb3e0fe2969bd0e9e8749516c326eecd1d9ad97643fa10a986d91afac1f8cfd") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
