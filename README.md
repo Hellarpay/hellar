@@ -1,11 +1,10 @@
-<h1 align="center">
-Hellar Core
-
-===========  
+<h1 align="center"> 
 <br/><br/>
-<img src="https://github.com/Hellarpay/hellar/blob/main/doc/Hellar.png" alt="Hellar" width="300"/>
+<img src="https://github.com/Hellarpay/hellar/blob/main/doc/hellarlogo.png" alt="Hellar" width="300"/>
 </h1>
 
+Hellar Core
+===========
 <div align="center">
 
 
