@@ -52,7 +52,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
     const char* pszTimestamp = "Hellar World Wide Cryptocurrency x11 11/06/2022 00/00";
-    const CScript genesisOutputScript = CScript() << ParseHex("04c1100d64bc8b26d6a88e33c84094c832e4c42fc0589fab770520182a5d4a46d04bb3e0fe2969bd0e9e8749516c326eecd1d9ad97643fa10a986d91afac1f8cfd") << OP_CHECKSIG;
+    const CScript genesisOutputScript = CScript() << ParseHex("04356fd96df0cb01ad026ea74ddf9574f9e1f4b9d4b50cba7061d27bdf887e97c674746a96e1d5aa95750849da984f57546356a1c40e9c3ef1ef06ef9517541c00") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -121,10 +121,10 @@ public:
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1653944400, 3726883, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1654920000, 96707, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000191ab2d87d3714387b5dd39363f66e2022f01de3c27300f7c8ecc9916fe"));
-        assert(genesis.hashMerkleRoot == uint256S("0xe257f7fb34f07510822d13544f7c9334b637978a17f1acf2fc8e71b31da6927e"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000dc3a70662e030f0e8ea632518da37e6782923c6b57f0954dac929265de1"));
+        assert(genesis.hashMerkleRoot == uint256S("0x08f8cc3c026f3bffac99abf2aec92f12d24a9a59372fae65ec43af23462a0b44"));
 
 
         vSeeds.push_back(CDNSSeedData("hellar.io", "dnsseed.hellar.io"));
@@ -221,10 +221,10 @@ public:
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1653944401UL, 1594853UL, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1654920001UL, 1166846UL, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000bd641448852bbcd79b477d82771d221b8ffa4b225f54f66aa895a7f0752"));
-        assert(genesis.hashMerkleRoot == uint256S("0xe257f7fb34f07510822d13544f7c9334b637978a17f1acf2fc8e71b31da6927e"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000ab6f85030fd247f6f38fed714d043abdea22e3cc4b5e7e93cf2ebf8aaed"));
+        assert(genesis.hashMerkleRoot == uint256S("0x08f8cc3c026f3bffac99abf2aec92f12d24a9a59372fae65ec43af23462a0b44"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -318,10 +318,10 @@ public:
         nDefaultPort = 19984;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1653944402, 0, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1654920002, 2, 0x207fffff, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x5071cd3556ee51b62d58b17a93c47cb1f7c97e9884940ea9bb1fe6b70d86ea5b"));
-        assert(genesis.hashMerkleRoot == uint256S("0xe257f7fb34f07510822d13544f7c9334b637978a17f1acf2fc8e71b31da6927e"));
+        assert(consensus.hashGenesisBlock == uint256S("0x6c941a732246a6d514c0d642f5b8dd5501aa585af97f9c90891adb67961d165f"));
+        assert(genesis.hashMerkleRoot == uint256S("0x08f8cc3c026f3bffac99abf2aec92f12d24a9a59372fae65ec43af23462a0b44"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
