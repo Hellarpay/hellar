@@ -1,4 +1,4 @@
-Hellar Core 0.12.1
+Hellar Core 0.1.0
 =====================
 
 This is the official reference wallet for Hellar digital currency and comprises the backbone of the Hellar peer-to-peer network. You can [download Hellar Core](https://www.hellar.io/downloads/) or [build it yourself](#building) using the guides below.
