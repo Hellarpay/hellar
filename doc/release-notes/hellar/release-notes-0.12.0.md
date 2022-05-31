@@ -1,8 +1,8 @@
-0.12.0 Release notes
+0.1.0 Release notes
 ====================
 
 
-Hellar Core version 0.12.0 is now available from:
+Hellar Core version 0.1.0 is now available from:
 
   https://pay.hellar.io/downloads
 
