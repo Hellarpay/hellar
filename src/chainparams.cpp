@@ -128,9 +128,9 @@ public:
 
 
         vSeeds.push_back(CDNSSeedData("hellar.io", "dnsseed.hellar.io"));
-        vSeeds.push_back(CDNSSeedData("dot.hellar.io", "dnsseed.dot.hellar.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.hellar.io", "dnsseed.masternode.hellar.io"));
-        vSeeds.push_back(CDNSSeedData("pay.hellar.io", "dnsseed.pay.hellar.io"));
+        vSeeds.push_back(CDNSSeedData("hellardot.pw", "dnsseed.hellardot.pw"));
+        vSeeds.push_back(CDNSSeedData("masternode.pw", "dnsseed.masternode.pw"));
+        vSeeds.push_back(CDNSSeedData("hellarpay.pw", "dnsseed.hellarpay.pw"));
 
         // Hellar addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
@@ -228,8 +228,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("dot.hellar.io",  "testnet-seed.dot.hellar.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.hellar.io", "test.dnsseed.masternode.hellar.io"));
+        vSeeds.push_back(CDNSSeedData("hellardot.pw",  "testnet-seed.hellardot.pw"));
+        vSeeds.push_back(CDNSSeedData("masternode.pw", "test-dnsseed.masternode.pw"));
 
         // Testnet Hellar addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
