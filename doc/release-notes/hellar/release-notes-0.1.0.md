@@ -4,7 +4,7 @@
 
 Hellar Core version 0.1.0 is now available from:
 
-  https://pay.hellar.io/downloads
+  https://hellar.io/downloads
 
 Please report bugs using the issue tracker at github:
 

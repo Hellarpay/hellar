@@ -27,7 +27,7 @@ Drag Hellar-Qt to your applications folder, and then run Hellar-Qt.
 * See the [Hellar documentation](https://hellarpay.atlassian.net/wiki/display/DOC)
 for help and more information.
 * Ask for help on [#hellarpay](http://webchat.freenode.net?channels=hellarpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=hellarpay).
-* Ask for help on the [HellarTalk](https://hellartalk.org/) forums.
+* Ask for help on the [HellarTalk](https://talk.hellar.io/) forums.
 
 Building
 ---------------------
@@ -57,7 +57,7 @@ The Hellar Core repo's [root README](/README.md) contains relevant information o
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [HellarTalk](https://hellartalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [HellarTalk](https://talk.hellar.io/) forums, in the Development & Technical Discussion board.
 * Discuss on [#hellarpay](http://webchat.freenode.net/?channels=hellarpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=hellarpay).
 
 ### Miscellaneous
